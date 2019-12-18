@@ -1,0 +1,113 @@
+html{
+    background: url("../img/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+body{
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 25px;
+    background-color: rgba(130, 199, 255, 0.801);
+    width: 100%;
+    font-size:15px;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+button{
+    width: 20%;
+    height: 15%;
+    margin-top: 3%;
+    margin-left:3%;
+    background-color: rgb(81, 85, 87);
+    color: 	rgb(230, 218, 209);
+    border-radius: 10px;
+    font-size: 90%;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.calc {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    border: solid;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -175px;
+    display: -webkit-flex;
+    display: block;
+    background-color: rgb(230, 218, 209);	
+
+}
+
+.screen{
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: whitesmoke;
+    width: 80%;
+    height: 4.5em;
+    padding-top: 5px;
+    padding-right: 2px;
+    top: 5%;
+    left: 10%;
+    background-color: rgb(167, 166, 166);
+    display: block;
+
+}
+
+.equation{
+    color: whitesmoke;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    overflow: scroll;
+    word-wrap: nowrap;
+}
+
+.result{
+    color: rgba(19, 18, 18, 0.28);
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-overflow: ellipsis;
+    overflow: scroll;
+    word-wrap: nowrap;
+}
+
+.buttons{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline;
+    flex-direction: row;
+    width: 90%;
+    height: 75%;
+    padding-top: 50px;
+    left: 5%;
+    top: 20%;
+    
+}
+
+.big-button{
+    width: 44% !important;
+
+}
+
+   
+
+  
