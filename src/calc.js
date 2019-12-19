@@ -106,6 +106,9 @@ function cleanArray(arr) {
         } else if (workingArray[i] === "+") {
             continue;
         } else if (workingArray[i] === "-") {
+            if (i === (workingArray.length - 1)) {
+                continue;
+            }
             i++;
             updatedArray.push(-(+workingArray[i]));
             continue;
